@@ -14,7 +14,7 @@ class TestCase(unittest.TestCase):
         self.assertEqual(example.multiply(1, 2), 3)
 
     def test_divide_1(self):
-        self.assertEqual(example.devide(1, 1), 0)
+        self.assertEqual(example.divide(1, 1), 0)
 
 
 if __name__ == '__main__':
