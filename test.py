@@ -11,10 +11,10 @@ class TestCase(unittest.TestCase):
         self.assertEqual(example.subtract(1, 1), 0)
 
     def test_multiply_1(self):
-        self.assertEqual(example.multiply(1, 2), 3)
+        self.assertEqual(example.multiply(2, 2), 4)
 
     def test_divide_1(self):
-        self.assertEqual(example.divide(1, 1), 0)
+        self.assertEqual(example.divide(10, 5), 2)
 
 
 if __name__ == '__main__':
